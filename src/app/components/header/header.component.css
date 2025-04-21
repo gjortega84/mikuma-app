@@ -41,16 +41,16 @@ a span{
 .menu-container{
     position: relative;
 }
-.menu-container:hover menu{
+.menu-container:hover .menu{
     display: block;
-}
-.menu a{
-width: 100%;
-min-width: 8rem;
 }
 .menu{
     position: absolute;
     z-index:  1;
     background: whitesmoke;
     display: none;
+}
+.menu a{
+width: 100%;
+min-width: 8rem;
 }
